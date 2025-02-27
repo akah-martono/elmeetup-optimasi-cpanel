@@ -36,6 +36,10 @@ Perbandingan jalur internet:
 ![Perbandingan versi HTTP](/assets/http-version-comparison.jpg)  
 Sumber: https://www.wallarm.com/what/what-is-http-2-and-how-is-it-different-from-http-1
 
+TCP + TLS vs QUIC  
+![Perbandingan versi HTTP](/assets/gcp-cloud-cdn-performance.gif)  
+sumber: https://cloudplatform.googleblog.com/2018/06/Introducing-QUIC-support-for-HTTPS-load-balancing.html
+
 ## Optimasi Perakit
 
 ### Struktur tidak rumit
