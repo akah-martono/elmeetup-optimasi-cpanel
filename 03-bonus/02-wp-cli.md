@@ -43,16 +43,50 @@ Test hasilnya:
 wp --info
 ```
 
+## Perintah WP CLI yang sering digunakan
 
-## Mengkonfigure WordPress
-wp-config.php docs: https://developer.wordpress.org/advanced-administration/wordpress/wp-config/
+### Update Plugin, Theme, dan Core
+```bash
+wp plugin update --all
+wp theme update --all
+wp core update
+```
 
-## Maintain Plugin
+### Hapus Plugin dan Theme
+```bash
+wp plugin delete akismet
+wp plugin delete hello
+wp theme delete twentytwentyfour
+wp theme delete twentytwentythree
+```
 
-## Maintain Theme
 
+### Optimasi Database
+```bash
+wp db optimize
+```
 
-## Backup Database
+### Backup Database
 ```bash
 wp db export ../db.sql
 ```
+Jika ingin backup file menggunakan zip:
+```bash
+zip -r ../siteku.zip ./
+```
+
+### Search Replace
+```bash
+wp search-replace 'https://example.test' 'https://www.example.com'
+```
+
+### Bersihkan Cache
+```bash
+wp cli cache clear
+```
+
+### Hapus Transient yang expired
+```bash
+wp transient delete --expired
+```
+

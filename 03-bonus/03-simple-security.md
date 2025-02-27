@@ -32,5 +32,3 @@ Tambahkan pada .htaccess
 ```
 Options All -Indexes
 ```
-
-## Cegah eksekusi di folder wp-content/uploads
