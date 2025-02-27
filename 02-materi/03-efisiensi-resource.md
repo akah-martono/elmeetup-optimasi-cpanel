@@ -35,5 +35,3 @@ Batas jumlah file yang dapat diunggah secara bersamaan, jika tidak ada kebutuhan
 ```
 max_file_uploads = 20
 ```
-
-## Penggunaan CRON
